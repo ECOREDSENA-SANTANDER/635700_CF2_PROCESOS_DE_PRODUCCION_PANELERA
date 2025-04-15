@@ -1,13 +1,15 @@
-window.InitUserScripts = function()
+function ExecuteScript(strId)
 {
-var player = GetPlayer();
-var object = player.object;
-var addToTimeline = player.addToTimeline;
-var setVar = player.SetVar;
-var getVar = player.GetVar;
-window.Script1 = function()
+  switch (strId)
+  {
+      case "5z0E9jQcpA4":
+        Script1();
+        break;
+  }
+}
+
+function Script1()
 {
   window.close();
 }
 
-};

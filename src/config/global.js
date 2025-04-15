@@ -413,14 +413,9 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Maria Camila Garcia Santamaria',
+          cargo: 'Líder del equipo',
           centro: 'Dirección General',
-        },
-        {
-          nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -439,19 +434,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Nombre',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Nombre',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -459,14 +469,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Álvaro Andrés Angarita Ramirez',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Daniel Felipe Varón Molina',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
