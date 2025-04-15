@@ -39,6 +39,14 @@ export default {
         numero: '1',
         titulo: 'Combustible utilizado en las hornillas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Procesos unitarios',
+            hash: 't_1_1',
+          },
+        ],
       },
 
       {

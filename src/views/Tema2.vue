@@ -141,10 +141,6 @@
       p.mb-5 La mayoría de los ingenios azucareros trabajan con un sistema de “evaporación abierta y fuego directo”. Está abierto porque el evaporador (olla) está en contacto directo con los gases de combustión, por lo que el jugo hierve a la presión atmosférica local y tiene llama abierta.
       
       p.mb-5 <b>A continuación, se presentan las partes que componen una hornilla panelera.</b>
-        .row.justify-content-around.align-items-center
-          .col-md-9
-            .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 3] #[br] #[i Partes que componen una hornilla panelera]
   
       ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)

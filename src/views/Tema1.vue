@@ -250,8 +250,13 @@
                 img(data-aos='fade-left')(src='@/assets/curso/temas/T1/3.svg', alt='')
                 figcaption Nota. Tomado de Hugot (1974).
           
+
+      Separador.mb-5
   
-      h3.mb-5 Procesos unitarios
+      #t_1_1.titulo-segundo.color-acento-contenido.mb-5
+        h2 1.1.	Procesos unitarios
+
+
   
       .tarjeta.tarjeta--gris.p-4.p-md-5.mb-5
         .row.justify-content-around.align-items-center
