@@ -321,9 +321,9 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h3.texto-negro.mb-1 Profundice en el estudio de este tema
-                p.texto-negro.mb-0  Profundice en el estudio de este tema, realizando la lectura del documento: Anexo 2. Seguridad y salud en el trabajo. Para acceder al documento, haga clic aquí.   
+                p.texto-negro.mb-0  Consulte el archivo Anexo 3_ Seguridad y salud en el trabajo.pdf que se encuentra en la carpeta Anexos, para ampliar la información.   
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/ANEXO2.pdf')" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_3.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
   

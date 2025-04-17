@@ -15,7 +15,6 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Apreciado aprendiz, sea bienvenido a este componente formativo, enfocado en los efectos de la temperatura en la producción panelera.<br><br>En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
-
     .row.mt-5
       .col-12
         figure

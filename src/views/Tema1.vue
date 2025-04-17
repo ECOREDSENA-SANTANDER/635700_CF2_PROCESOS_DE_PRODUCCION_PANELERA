@@ -89,9 +89,9 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        p.texto-blanco Para ampliar la información relacionada con los valores caloríficos del bagazo de la caña, revise con atención el documento Anexo 1. Valor calorífico del bagazo. Para ello, haga clic aquí.
+                        p.texto-blanco Para ampliar la información relacionada con los valores caloríficos del bagazo de la caña, consulte el archivo Anexo 1_Valor calorífico del bagazo.pdf, que se encuentra en la carpeta Anexos, para ampliar la información
                       .col-sm-auto
-                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/ANEXO1.pdf')" target="_blank")
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_1.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
               
@@ -104,9 +104,9 @@
             figure
               img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-8.svg', alt='Obrero')
           .col-md-9.mb-3.mb-md-0
-            p.texto-blanco A continuación, se presentan algunas generalidades sobre el carbón.
+            p.texto-blanco Consulte el archivo Anexo 2_Infografía_generalidades_sobre_el_carbón.pdf que se encuentra en la carpeta Anexos, para ampliar la información.
           .col-sm-auto
-            a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/INFOGRAFIA_GENERALIDADES_SOBRE_EL_CARBON.pdf')" target="_blank")
+            a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_2.pdf')" target="_blank")
               span.texto-blanco Descargar
               i.fas.fa-file-download
   
@@ -131,42 +131,143 @@
               p El aire es una mezcla de gases que se forman en la atmósfera; la composición del aire seco es la siguiente:
           
             .col-md-6
-              figure
-                img(data-aos='fade-left')(src='@/assets/curso/temas/T1/1.svg', alt='')
-                figcaption Nota. Tomado de Hugot (1974). 
-  
+              .tabla-a.tabla-peq
+                table  
+                  caption Nota. Tomado de Hugot (1974). 
+                  thead  
+                    tr  
+                      th Elementos  
+                      th % en peso  
+                      th % en volumen  
+                  tbody  
+                    tr  
+                      td Oxígeno  
+                      td 23,15  
+                      td 20,84  
+                    tr  
+                      td Nitrógeno y gases inertes  
+                      td 76,85  
+                      td 79,16  
+ 
   
           .row.justify-content-center(titulo="")
             .col-md-5.mb-4.mb-md-0
               h3.mb-3 Reacciones de la combustión
               p Los elementos combustibles del bagazo son el carbono y el hidrógeno; además de estos elementos, también está presente en el carbón una pequeña cantidad de azufre. Cuando estos reaccionan con el oxígeno, producen:
-              .col-6.d-none.d-lg-block
-                figure
-                  img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-12.svg', alt='')
   
             .col-md-6
-              figure
-                img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-11.png', alt='')
+              .tabla-a.tabla-peq
+                table  
+                  thead  
+                    tr  
+                      th Elementos combustibles  
+                      th Resultado de la combustión  
+                  tbody  
+                    tr  
+                      td C + O<sub>2</sub>  
+                      td CO<sub>2</sub>  
+                    tr  
+                      td 12 g + 32 g  
+                      td 44 g  
+                    tr  
+                      td 1 + 2,67  
+                      td 3,67  
+                    tr  
+                      td H<sub>2</sub> + O  
+                      td H<sub>2</sub>O  
+                    tr  
+                      td 2 g + 16 g  
+                      td 18 g  
+                    tr  
+                      td 1 + 8  
+                      td 9  
+                    tr  
+                      td S + O<sub>2</sub> 
+                      td SO<sub>2</sub>  
+                    tr  
+                      td 32 g + 32 g  
+                      td 64 g  
+                    tr  
+                      td 1 + 1  
+                      td 2  
             
           .row.justify-content-center(titulo="")
-            .col-md-5.mb-4.mb-md-0
+            .col-md-4.mb-4.mb-md-0
               h3.mb-3 Caracterización de los productos gaseosos de la combustión
-              p La imagen muestra los principales componentes de los gases de combustión y sus principales propiedades.
+              p La tabla muestra los principales componentes de los gases de combustión y sus principales propiedades.
           
-            .col-md-6
-              p.mb-4 Propiedades de los principales componentes de los gases
-              figure
-                img(data-aos='fade-left')(src='@/assets/curso/temas/T1/2.svg', alt='')
-                figcaption Nota. Tomado de Hugot (1974). 
-  
+            .col-md-8
+              .tabla-a.tabla-peq
+                table  
+                  caption Nota. Tomado de Hugot (1974). 
+                  thead  
+                    tr  
+                      th Elemento  
+                      th Peso Molecular  
+                      th Constante R  
+                      th p.e. en kg/m² a 0° / 760  
+                      th v.e. en m³/kg a 0° / 760  
+                      th Calor específico medio a baja presión constante para el intervalo:  
+                      th Calor específico medio a baja presión constante para el intervalo: 0° - 100°  
+                  tbody  
+                    tr  
+                      td CO<sub>2</sub>  
+                      td 44  
+                      td 19,28  
+                      td 1,963  
+                      td 0,509  
+                      td 0,21  
+                      td 0,28  
+                    tr  
+                      td H<sub>2</sub>  
+                      td 18  
+                      td 47,11  
+                      td 0,804  
+                      td 1,244  
+                      td 0,48  
+                      td 0,62  
+                    tr  
+                      td N<sub>2</sub>  
+                      td 28  
+                      td 30,20  
+                      td 1,252  
+                      td 0,800  
+                      td 0,74  
+                      td 0,87  
+                    tr  
+                      td O<sub>2</sub>  
+                      td 32  
+                      td 26,50  
+                      td 1,428  
+                      td 0,700  
+                      td 0,21  
+                      td 0,28  
+                    tr  
+                      td CO  
+                      td 28  
+                      td 30,29  
+                      td 1,251  
+                      td 0,800  
+                      td 0,24  
+                      td 0,29  
+                    tr  
+                      td AIRE  
+                      td 29  
+                      td 29,27  
+                      td 1,293  
+                      td 0,773  
+                      td 0,24  
+                      td 0,30  
+
+
           .row.justify-content-center(titulo="")
             .col-md-5.mb-4.mb-md-0
               h3.mb-3 Combustión de bagazo seco sin exceso de aire
               p.mb-3 Para calcular la cantidad de oxígeno necesaria para la combustión se tiene en cuenta la composición química del bagazo y el porcentaje obtenido por las reacciones anteriores.
               p.mb-0 <b>Ejemplo:</b>
-              p.mb-3 C = 0,470 kg×2,67 = 1,250 Kg O2 H2 = 0,065 kg ×8 = 0,520 Kg O2  Total  = 1770 Kg O2 
-              p.mb-0 <b>El bagazo contiene</b> 0,440 Kg O2  
-              p.mb-4 El aire debe ser proporcional, es decir, es igual a 1,330 Kg O2
+              p.mb-3 C = 0,470 kg×2,67 = 1,250 Kg O<sub>2</sub> H<sub>2</sub> = 0,065 kg ×8 = 0,520 Kg O<sub>2</sub>  Total  = 1770 Kg O<sub>2</sub>
+              p.mb-0 <b>El bagazo contiene</b> 0,440 Kg O<sub>2</sub>  
+              p.mb-4 El aire debe ser proporcional, es decir, es igual a 1,330 Kg O<sub>2</sub>
               p.mb-0 <b>El cálculo del nitrógeno se hace de la siguiente manera:</b>
               p.mb-0 1,330 (Kg O_2)(Kg CO)×(76,85 Kg N_2)/(23,15 Kg O_2) = 4,420 (Kg N_2)/(Kg CO)
               p.mb-4 La masa total del aire necesario por Kg de combustible es igual a 5,750 Kg  
@@ -202,7 +303,7 @@
               p.mb-0 El carbón contiene 0,076 Kg O<span class="exponentes">2</span>
               p.mb-4 El aire debe proporcionar   = 2,082 Kg O<span class="exponentes">2</span>
               p.mb-1 <b>Para calcular el nitrógeno </b>
-              p.mb-0 2,082 (Kg O2)/(Kg CO) * (76,85 Kg N2)/(23,15 Kg O2) = 6,915 (Kg N2)/(Kg CO)
+              p.mb-0 2,082 (Kg O<sub>2</sub>)/(Kg CO) * (76,85 Kg N<sub>2</sub>)/(23,15 Kg O<sub>2</sub>) = 6,915 (Kg N<sub>2</sub>)/(Kg CO)
               p.mb-0 Masa total del aire necesario por Kg de combustible = 8,997 Kg.
           
             .col-md-6
@@ -212,7 +313,7 @@
           .row.justify-content-center(titulo="")
             .col-md-5.mb-4.mb-md-0
               h3.mb- Combustión con exceso de aire
-              p.mb-4 En la práctica, no es posible suministrar solo la cantidad de aire teóricamente necesaria para quemar el combustible. Lograr una combustión completa, sin dejar residuos, sin quemar y convertir todo el carbono en CO2 requiere un exceso de suministro de aire. De hecho, cuando parte del carbono se quema para formar solo CO, se pierde una cantidad significativa de calor.
+              p.mb-4 En la práctica, no es posible suministrar solo la cantidad de aire teóricamente necesaria para quemar el combustible. Lograr una combustión completa, sin dejar residuos, sin quemar y convertir todo el carbono en CO<sub>2</sub> requiere un exceso de suministro de aire. De hecho, cuando parte del carbono se quema para formar solo CO, se pierde una cantidad significativa de calor.
               p.mb-2 Calcule la cantidad real de aire consumido por kilogramo de combustible húmedo usando la siguiente fórmula:
               p.mb-4 Ma<span class="exponente">r</span>  = mgh - m∞
               p.mb-2 <b>Donde:</b>
@@ -236,20 +337,51 @@
   
           .row.justify-content-center(titulo="")
             .col-md-5.mb-4.mb-md-0
-              h3.mb-3 Contenido de CO2 en los gases de salida
-              p.mb-4 Dado que, el contenido de carbono del bagazo es constante (47 %), la cantidad de CO2 que se produce al quemar 1 kilogramo de bagazo seco también es constante. Cuando se usa la cantidad de aire requerida teóricamente, el contenido de CO2 en los gases de escape se maximiza, mientras que, con el exceso de aire, la cantidad de CO2 en un volumen de aire dado aumenta al aumentar el exceso de aire y permanece constante. El porcentaje de CO2 disminuye al aumentar el exceso de aire.
+              h3.mb-3 Contenido de CO<sub>2</sub> en los gases de salida
+              p.mb-4 Dado que, el contenido de carbono del bagazo es constante (47 %), la cantidad de CO<sub>2</sub> que se produce al quemar 1 kilogramo de bagazo seco también es constante. Cuando se usa la cantidad de aire requerida teóricamente, el contenido de CO<sub>2</sub> en los gases de escape se maximiza, mientras que, con el exceso de aire, la cantidad de CO<sub>2</sub> en un volumen de aire dado aumenta al aumentar el exceso de aire y permanece constante. El porcentaje de CO<sub>2</sub> disminuye al aumentar el exceso de aire.
               p.mb-1 <b>El aire extra es lo mismo a :</b> m =  ( 0,196)/ɻ   
               p.mb-1 <b>Donde:</b>
               p.mb-1 <b>m</b>= (Masa del aire empleado)/ (Masa del aire estrictamente necesario) 
-              p.mb-1 ɻ = Contenido de CO2 de los gases secos con relación a la unidad.  
+              p.mb-1 ɻ = Contenido de CO<sub>2</sub> de los gases secos con relación a la unidad.  
               p.mb-1 En la práctica se ha encontrado que las mejores condiciones para quemar bagazo en quemadores son cuando el exceso de aire varía entre 40 % y 60 % del aire teórico.
-              p.mb-1 <b>La imagen muestra algunos valores correlativos entre ɻ y m.</b>                                      
+              p.mb-1 <b>La tabla muestra algunos valores correlativos entre ɻ y m.</b>                                      
             .col-md-6
-              p.mb-4 Correlación entre el contenido CO2 de los gases de
-              figure
-                img(data-aos='fade-left')(src='@/assets/curso/temas/T1/3.svg', alt='')
-                figcaption Nota. Tomado de Hugot (1974).
-          
+              p.mb-4 Correlación entre el contenido CO<sub>2</sub> de los gases de
+              .tabla-a.tabla-peq
+                table  
+                  caption Nota. Tomado de Hugot (1974).
+                  thead  
+                    tr  
+                      th y  
+                      th 0,06  
+                      th 0,07  
+                      th 0,08  
+                      th 0,09  
+                      th 0,10  
+                      th 0,11  
+                      th 0,12  
+                      th 0,13  
+                      th 0,14  
+                      th 0,15  
+                      th 0,16  
+                      th 0,17  
+                  tbody  
+                    tr  
+                      td m  
+                      td 3,27  
+                      td 2,80  
+                      td 2,45  
+                      td 2,18  
+                      td 1,96  
+                      td 1,78  
+                      td 1,63  
+                      td 1,51  
+                      td 1,40  
+                      td 1,30  
+                      td 1,22  
+                      td 1,15 
+
+
 
       Separador.mb-5
   
