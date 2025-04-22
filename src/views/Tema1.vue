@@ -425,7 +425,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 1] #[br] #[i Diagrama de flujo del proceso de transformación de caña de panela] 
           figure
-            img(src='@/assets/curso/temas/T1/4.svg', alt='')
+            img(src='@/assets/curso/temas/T1/4.svg', alt='La imagen ilustra un diagrama de flujo del proceso de transformación de la caña de azúcar en panela. Este diagrama permite identificar puntos de mejora y tomar decisiones para aumentar la productividad. ')
       p Aunque el Estado colombiano ha tratado de tecnificar las pequeñas empresas productoras de panela, no se ha logrado acceder a recursos para la reconversión tecnológica de sus hornillas y pailas, gracias a esto, en las unidades de producción de panela, se presentan eventos no deseables:
       
       .row

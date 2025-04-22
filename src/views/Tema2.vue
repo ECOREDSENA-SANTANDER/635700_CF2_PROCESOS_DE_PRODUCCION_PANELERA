@@ -49,7 +49,7 @@
             p.mb-4 Esta es la primera parte del proceso donde la caña de azúcar se pasa entre los rodillos o martillos de un molino para obtener el jugo de caña de azúcar y un residuo sólido llamado bagazo verde que contiene 50 – 60 % de humedad. 
             p.mb-4 La industria panelera utiliza un proceso de extracción en seco. Es decir, el proceso de trituración se realiza sin añadir agua.
   
-        .row.justify-content-around.align-items-center(titulo="Pre-limpieza")
+        .row.justify-content-around.align-items-center(titulo="Prelimpieza")
           .col-md-4.mb-4.mb-md-0
             figure
               img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-5.png', alt='')
@@ -57,7 +57,7 @@
         
           .col-md-8
             p.mb-4 El jugo crudo obtenido durante el proceso de molienda, o guarapo, es un pre-prensado, elemento compuesto principalmente por bagazo, caña de azúcar, tierra, sobrantes de materia en suspensión, que tiene la función de retener las impurezas dispersas en el jugo, pasar por el limpiador, sustancias, lodos y sustancias precursoras del color. 
-            p.mb-4 Los pre-limpiadores funcionan separando las impurezas del jugo debido a las diferencias de densidad. La separación en frío, antes del inicio del proceso, evita que los precursores de colorantes se liberen en el jugo por exposición al calor, afectando negativamente la presentación de los azúcares orgánicos. Este proceso se repite hasta que el jugo esté completamente limpio, garantizando mejores productos.
+            p.mb-4 Los prelimpiadores funcionan separando las impurezas del jugo debido a las diferencias de densidad. La separación en frío, antes del inicio del proceso, evita que los precursores de colorantes se liberen en el jugo por exposición al calor, afectando negativamente la presentación de los azúcares orgánicos. Este proceso se repite hasta que el jugo esté completamente limpio, garantizando mejores productos.
   
         .row.justify-content-around.align-items-center(titulo="Almacenamiento<br>de los jugos")
           .col-md-4.mb-4.mb-md-0
@@ -135,7 +135,7 @@
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 2] #[br] #[i Diagrama en perspetiva de un trapiche panelero]
             figure
-              img(src='@/assets/curso/temas/T2/img-12.png', alt='')
+              img(src='@/assets/curso/temas/T2/img-12.png', alt='La imagen ilustra en perspectiva el diagrama de un trapiche panelero y los diferentes pasos que se surten en la transformación de la caña en panela.')
               figcaption Nota. Adaptada de Programa de procesos Agroindustriales. CORPOICA- C.I. Tibaitatá (2011).
   
       p.mb-5 La mayoría de los ingenios azucareros trabajan con un sistema de “evaporación abierta y fuego directo”. Está abierto porque el evaporador (olla) está en contacto directo con los gases de combustión, por lo que el jugo hierve a la presión atmosférica local y tiene llama abierta.
