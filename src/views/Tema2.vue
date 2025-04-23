@@ -133,7 +133,7 @@
         .row.justify-content-around.align-items-center
           .col-md-9
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 2] #[br] #[i Diagrama en perspetiva de un trapiche panelero]
+              p.mb-0 #[b Figura 2] #[br] #[i Diagrama en perspectiva de un trapiche panelero]
             figure
               img(src='@/assets/curso/temas/T2/img-12.png', alt='La imagen ilustra en perspectiva el diagrama de un trapiche panelero y los diferentes pasos que se surten en la transformación de la caña en panela.')
               figcaption Nota. Adaptada de Programa de procesos Agroindustriales. CORPOICA- C.I. Tibaitatá (2011).

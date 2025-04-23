@@ -314,19 +314,8 @@ export default {
   referencias: [
     {
       referencia:
-        'Montoya Armenta, L. & Romero Ruíz, H. (1998). <i>Estudio hidrotérmico para la determinación de los coeficientes de transferencia de calor en tres tipos de pailas para hornillas paneleras</i>.',
-      link:
-        'https://www.researchgate.net/publication/306376361_ESTUDIO_HIDROTERMICO_PARA_LA_DETERMINACION_DE_LOS_COEFICIENTES_DE_TRANSFERENCIA_DE_CALOR_EN_TRES_TIPOS_DE_PAILAS_PARA_HORNILLAS_PANELERAS',
-    },
-    {
-      referencia:
         'Beltrán Martínez, C. (2021). <i>Evaluación de técnicas para gestión de los residuos de la producción panelera (cachaza) en la vereda Nacederos municipio de Quebradanegra-Cundinamarca</i>. ',
       link: 'https://repositorio.ucundinamarca.edu.co/handle/20.500.12558/3431',
-    },
-    {
-      referencia:
-        'Durán Sánchez, E. (2019). <i>Estudio térmico, económico y de calidad en sistemas de producción de panela</i>.',
-      link: 'https://repositorio.unal.edu.co/handle/unal/76063',
     },
     {
       referencia:
@@ -340,6 +329,11 @@ export default {
     },
     {
       referencia:
+        'Durán Sánchez, E. (2019). <i>Estudio térmico, económico y de calidad en sistemas de producción de panela</i>.',
+      link: 'https://repositorio.unal.edu.co/handle/unal/76063',
+    },
+    {
+      referencia:
         'Esquivel Barrios, L. C. & Arenas Quimbayo, J. M. (2016). Análisis externo en el sector panelero. <i>Temas y Reflexiones</i>, (5).',
       link:
         'http://repositorio.unibague.edu.co:80/jspui/handle/20.500.12313/216',
@@ -348,6 +342,12 @@ export default {
       referencia:
         'García, H. R., Albarracín L., Toscano A., Santana N. & Insuasty O. (2007). <i>Guía tecnológica para el manejo integral del sistema productivo de la caña panelera</i>. Mosquera: Produmedios (editorial para el sector agropecuario).',
       link: 'http://hdl.handle.net/20.500.12324/13454',
+    },
+    {
+      referencia:
+        'García, J.G, Toscano, J. A. &Guerrero, G. G. (2015). Análisis exergético de un horno de lecho fijo en la producción de panela. <i>Revista Colombiana De Tecnologias De Avanzada (Rcta), 1</i>(25), p. 32-39.',
+      link:
+        'https://docplayer.es/72041133-Exergy-analysis-for-a-furnace-in-the-production-of-panela-analisis-exergetico-de-un-horno-de-lecho-fijo-en-la-produccion-de-panela.html',
     },
     {
       referencia:
@@ -387,9 +387,9 @@ export default {
     },
     {
       referencia:
-        ' García, J.G, Toscano, J. A. &Guerrero, G. G. (2015). Análisis exergético de un horno de lecho fijo en la producción de panela. <i>Revista Colombiana De Tecnologias De Avanzada (Rcta), 1</i>(25), p. 32-39.',
+        'Montoya Armenta, L. & Romero Ruíz, H. (1998). <i>Estudio hidrotérmico para la determinación de los coeficientes de transferencia de calor en tres tipos de pailas para hornillas paneleras</i>.',
       link:
-        'https://docplayer.es/72041133-Exergy-analysis-for-a-furnace-in-the-production-of-panela-analisis-exergetico-de-un-horno-de-lecho-fijo-en-la-produccion-de-panela.html',
+        'https://www.researchgate.net/publication/306376361_ESTUDIO_HIDROTERMICO_PARA_LA_DETERMINACION_DE_LOS_COEFICIENTES_DE_TRANSFERENCIA_DE_CALOR_EN_TRES_TIPOS_DE_PAILAS_PARA_HORNILLAS_PANELERAS',
     },
     {
       referencia:
