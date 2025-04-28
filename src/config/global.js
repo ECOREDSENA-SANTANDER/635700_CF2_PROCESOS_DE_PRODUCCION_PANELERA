@@ -3,7 +3,7 @@ export default {
     Name: 'Efectos de la temperatura en la producción panelera',
     Description:
       'La temperatura juega un papel importante en el control del proceso y afecta la calidad del producto final. La relación entre esta, la concentración y la pureza de las soluciones de azúcar, es una herramienta de control eficaz para la industria. Se sabe que a medida que aumenta la concentración de una solución, expresada en grados Brix, también aumenta el punto de ebullición.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.svg'),
     imagenesDecorativasBanner: [
       {

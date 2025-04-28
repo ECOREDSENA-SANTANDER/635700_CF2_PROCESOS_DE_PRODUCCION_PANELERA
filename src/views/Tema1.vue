@@ -7,7 +7,7 @@
           span 1
         h1 Combustión utilizados en la hornilla
       
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
         .bloque-texto-g__img(data-aos='fade-right')(
           :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-1.png')})`}"
         )
@@ -111,7 +111,7 @@
   
       h3.mb-5 Combustión
   
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
         .bloque-texto-g__img(data-aos='fade-right')(
           :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-9.png')})`}"
         )
@@ -417,7 +417,7 @@
                   .lista-ol--cuadro__vineta.fcp
                     span 5.
                   | Cristalización.
-      .row.mt-5.mb-5
+      .row.justify-content-center.mt-5.mb-5
         .col-12.col-md-12.col-lg-7
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 1] #[br] #[i Diagrama de flujo del proceso de transformación de caña de panela] 

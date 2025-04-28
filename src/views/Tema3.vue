@@ -7,7 +7,7 @@
           span 3
         h1 Gestión ambiental y residuos en el proceso productivo de la panela
   
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
         .bloque-texto-g__img(data-aos='fade-right')(
           :style="{'background-image': `url(${require('@/assets/curso/temas/T3/img-1.png')})`}"
         )
