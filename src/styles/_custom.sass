@@ -2,32 +2,28 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 3%
+    top: 15%
     right: 80%
     width: 5%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 3%
+    top: 15%
     right: 70%
     width: 5%
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 3%
+    top: 15%
     right: 90%
     width: 5%
-
-.banner-principal__img
-  width: 500px !important    
-
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
-
+.banner-principal__img
+  max-width: 500px !important    
 
 .tarjeta-amarillo
   background: #FBEDDF
@@ -40,16 +36,12 @@
 
 .fab
   background-color: $color-acento-botones !important
-
 .fcc
   background-color: $color-secundario !important
-
 .fcd
   background-color: #EDB780 !important
-
 .fce
   background-color: #EFE8FA !important
-
 .fcp
   background-color: $color-primario !important
 
@@ -73,37 +65,29 @@
   font-weight: bold  
 
 // ajustes 2025
-
 .lista-ul__vineta 
   display: none
-
 .titulo-principal.color-acento-contenido .titulo-principal__numero span 
   color: white
-
 .banner-interno__fondo    
   background-image: url("../assets/curso/portada/banner-interno.png") !important
-
-
 .tabla-a.tabla-peq table
   min-width: 300px !important
-
+  @media (max-width: $bp-max-xs)
+    min-width: 700px !important
 .tabla-a
   border: 2px solid #D3D3D3
 .white
   background-color: #fff
-
-
 .tabla-a.tabla-peq table
   td, th 
     border: 1px solid #e8e8e8
     padding: 0.3em
-
 table 
     border-collapse: separate
     border-spacing: 0
     table-layout: fixed
     width: 100%
-
 .faa
   background-color: #f6f6f6 !important
   border-radius: 20px
@@ -129,3 +113,79 @@ table
 .tabs-a__tab 
   background-color: #e8e8e8
 
+/* Ajustes 2025 AB */
+.barra-avance__boton--regresar span
+  color: #FFF !important
+.fa-lista
+  li
+    display: flex !important
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario 
+
+.bga-1  
+  background-color: #D6DAEB
+.bg-t1 
+  background-image: url("../assets/curso/temas/T1/bg-pasos.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top right
+
+.pasos-b.color-secundario .pasos-b__header__item--active .pasos-b__header__item__dot span
+  color: #FFF
+
+.tabla-a.tabla-t1
+  table
+    min-width: 500px !important
+    @media (max-width: $bp-max-xs)
+      min-width: 800px !important
+    thead
+      background-color: transparent
+    th
+      padding: 15px
+      border-color: #E53935      
+      color: #E53935
+    td
+      border-color: #E53935
+      padding: 10px
+.tabla-a.est-t1     
+  thead
+    background-color: transparent
+    font-weight: normal
+  th
+    border-color: #E53935 
+    font-weight: normal
+    padding-top: 15px !important    
+    padding-bottom: 15px !important
+  td
+    border-color: #E53935
+    padding-top: 15px !important    
+    padding-bottom: 15px !important
+.t1-tarj img
+  width: 100px
+
+.t3-3 .col-lg-4
+  z-index: 999
+  position: relative
+.t-3
+  position: relative
+  p, img
+    z-index: 999
+    position: relative
+  &:before
+    content: ""  
+    position: absolute
+    background: #FBEDDF
+    width: 100%
+    height: 100%
+    bottom: 0px
+    z-index: 0
+    border-radius: 20px
+    left: -25%
+    @media (max-width: $bp-max-md)
+      display: none

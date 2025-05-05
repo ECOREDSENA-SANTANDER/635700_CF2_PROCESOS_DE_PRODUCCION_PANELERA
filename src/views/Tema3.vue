@@ -7,25 +7,25 @@
           span 3
         h1 Gestión ambiental y residuos en el proceso productivo de la panela
   
-      .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
-        .bloque-texto-g__img(data-aos='fade-right')(
+      .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
+        .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/T3/img-1.png')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4.py-lg-5
           p.mb-0 A lo largo de los años, la industria de la panela ha evolucionado su proceso de producción a través de la artesanía sin agregar valor a sus productos ni realizar cambios importantes en el proceso de producción. A continuación, se presenta un video que muestra cómo se ve la gestión ambiental y de residuos del proceso de producción de panela en Colombia. 
   
-      figure.mb-5
+      figure(data-aos="fade")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/f_Vk-TuAcFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption.mb-5 Video. Gestión ambiental y residuos del proceso de producción de panela
+
         
-  
-      .tarjeta.tarjeta-amarillo.p-4.p-md-5.mb-5
-        .row.justify-content-around.align-items-center
-          .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-            img(data-aos='fade-right')(src="@/assets/curso/temas/T3/img-2.svg")
-  
-          .col-md.col-lg-6
-            p.mb-4 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+      .row.justify-content-center.align-items-center.t3-3(data-aos='fade')
+        .col-lg-4.col-md-6.mb-3.mb-lg-0
+          img(src="@/assets/curso/temas/T3/img-2.svg")
+        .col-lg-6
+          .tarjeta.tarjeta-amarillo.p-4.py-lg-5.t-3
+            p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
   
   
   </template>

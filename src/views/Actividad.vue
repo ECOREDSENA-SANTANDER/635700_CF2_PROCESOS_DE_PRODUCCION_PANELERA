@@ -9,7 +9,7 @@
             figure
               img(src="@/assets/curso/temas/Actividad.svg", alt="")
         .col-12.col-md-8.col-lg-9
-          .titulo-segundo
+          .titulo-segundo.color-acento-contenido
             h2 Efectos de la temperatura en la producción panelera
           p.mb-4 A continuación, se presenta una actividad de aprendizaje que está encaminada a validar los conocimientos que ha podido adquirir con el desarrollo de este componente formativo. Seleccione la respuesta que, según el enunciado, considere es la correcta.
           .tarjeta.actividad.p-3
@@ -21,6 +21,8 @@
                   span Realizar
                   i.fas.fa-puzzle-piece    
                 
+
+
 </template>
 
 <script>

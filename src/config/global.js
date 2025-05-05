@@ -35,13 +35,11 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Combustible utilizado en las hornillas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Procesos unitarios',
             hash: 't_1_1',
@@ -51,19 +49,16 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Procesos de transferencia de calor en la hornilla panelera',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Hornilla panelera',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Seguridad y salud en el trabajo',
             hash: 't_2_2',
@@ -72,7 +67,6 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo:
           'Gestión ambiental y residuos en el proceso productivo de la panela',
