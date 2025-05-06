@@ -102,6 +102,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CF2_635700_DU.zip',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -117,7 +122,7 @@ export default {
     {
       tema: 'Combustible utilizado en la hornilla',
       referencia:
-        'Díaz, A. & Iglesias, C. E. (2012). Bases teóricas para la fundamentación del proceso de extracción de jugo de caña de azúcar para la producción de panela. <i>Revista Ciencias técnicas agropecuarias, 21</i>(1), p. 53-57.',
+        'Díaz, A. & Iglesias, C. E. (2012). Bases teóricas para la fundamentación del proceso de extracción de jugo de caña de azúcar para la producción de panela. <em>Revista Ciencias técnicas agropecuarias, 21</em>(1), p. 53-57.',
       tipo: 'Artículo',
       link:
         'http://scielo.sld.cu/scielo.php?pid=S2071-00542012000100010&script=sci_arttext&tlng=en',
@@ -125,7 +130,7 @@ export default {
     {
       tema: 'Combustible utilizado en la hornilla',
       referencia:
-        'Guevara Enciso, J. I. (2014). <i>Modelo computacional de la combustión del bagazo de caña en una cámara de combustión tipo ward-cimpa de una hornilla panelera.</i>',
+        'Guevara Enciso, J. I. (2014). <em>Modelo computacional de la combustión del bagazo de caña en una cámara de combustión tipo ward-cimpa de una hornilla panelera.</em>',
       tipo: 'Tesis de grado',
       link:
         'https://repositorio.uniandes.edu.co/bitstream/handle/1992/12574/u686426.pdf?sequence=1',
@@ -133,7 +138,7 @@ export default {
     {
       tema: '1. Combustible utilizado en la hornilla',
       referencia:
-        'García Rincón, J. G., Arévalo Toscano, J.  & Guerrero Gómez, G. (2021). Análisis energético de un horno de lecho fijo en la producción de panela. <i>Revista Colombiana De Tecnologías De Avanzada (Rcta), 1</i>(25), p. 32-39.',
+        'García Rincón, J. G., Arévalo Toscano, J.  & Guerrero Gómez, G. (2021). Análisis energético de un horno de lecho fijo en la producción de panela. <em>Revista Colombiana De Tecnologías De Avanzada (Rcta), 1</em>(25), p. 32-39.',
       tipo: 'Artículo',
       link:
         'http://ojs.unipamplona.edu.co/ojsviceinves/index.php/rcta/article/view/409',
@@ -141,21 +146,21 @@ export default {
     {
       tema: 'Proceso de transferencia de calor en la hornilla panelera',
       referencia:
-        'Delgado Ramírez, L. O. (2015). <i>Modelación unidimensional de la transferencia de calor en intercambiadores de una hornilla panelera</i>. Universidad de Piura, Perú.',
+        'Delgado Ramírez, L. O. (2015). <em>Modelación unidimensional de la transferencia de calor en intercambiadores de una hornilla panelera</em>. Universidad de Piura, Perú.',
       tipo: 'Artículo',
       link: 'https://pirhua.udep.edu.pe/handle/11042/2265',
     },
     {
       tema: 'Proceso de transferencia de calor en la hornilla panelera.',
       referencia:
-        'Cortés Sanabria, P. J. (2016). <i>Estudio computacional de la transferencia de calor por convección en hornillas con pailas aleteadas de la industria panelera</i>. Universidad de los Andes.',
+        'Cortés Sanabria, P. J. (2016). <em>Estudio computacional de la transferencia de calor por convección en hornillas con pailas aleteadas de la industria panelera</em>. Universidad de los Andes.',
       tipo: 'Tesis de grado',
       link: 'https://repositorio.uniandes.edu.co/handle/1992/13598',
     },
     {
       tema: 'Seguridad y salud en el trabajo',
       referencia:
-        'Díaz Orozco A. y Victoria Carmona P. (2015). <i>Identificación de peligros en el proceso de fabricación de la panela en dos (2) trapiches ubicados </i>en la ciudad Pereira (Risaralda).',
+        'Díaz Orozco A. y Victoria Carmona P. (2015). <em>Identificación de peligros en el proceso de fabricación de la panela en dos (2) trapiches ubicados </em>en la ciudad Pereira (Risaralda).',
       tipo: 'Trabajo de grado',
       link: 'https://bdigital.uniquindio.edu.co/handle/001/4187',
     },
@@ -163,7 +168,7 @@ export default {
       tema:
         'Gestión ambiental y residuos en el proceso productivo de la panela',
       referencia:
-        'García, H. R., Albarracín, L. C., Toscano LaTorre, A., Santana, N. & Insuasty, O. (2007).<i> Guía tecnológica para el manejo integral del sistema productivo de la caña panelera</i>.',
+        'García, H. R., Albarracín, L. C., Toscano LaTorre, A., Santana, N. & Insuasty, O. (2007).<em> Guía tecnológica para el manejo integral del sistema productivo de la caña panelera</em>.',
       tipo: 'PDF',
       link:
         'https://repository.agrosavia.co/bitstream/handle/20.500.12324/13454/42610_46668.pdf?sequence=1&isAllowed=y',
@@ -172,7 +177,7 @@ export default {
       tema:
         'Gestión ambiental y residuos en el proceso productivo de la panela',
       referencia:
-        'González Campaña, P. J., & Zúñiga Cabrera, D. C. (2022). Impactos ambientales en la producción de panela en la parroquia de Pacto del Distrito Metropolitano de Quito.<i> Esferas</i>, 3, p. 94-111.',
+        'González Campaña, P. J., & Zúñiga Cabrera, D. C. (2022). Impactos ambientales en la producción de panela en la parroquia de Pacto del Distrito Metropolitano de Quito.<em> Esferas</em>, 3, p. 94-111.',
       tipo: 'Documento investigativo',
       link: 'https://revistas.usfq.edu.ec/index.php/esferas/article/view/2430',
     },
@@ -180,7 +185,7 @@ export default {
       tema:
         'Gestión ambiental y residuos en el proceso productivo de la panela',
       referencia:
-        'Pico Poma, L. P. (2018). <i>Simulación del proceso de digestión anaerobia para predecir la producción de biogás a partir de residuos de la industria panelera en la Provincia de Pastaza</i> (Bachelor&apos;s thesis, Universidad Estatal Amazónica).',
+        'Pico Poma, L. P. (2018). <em>Simulación del proceso de digestión anaerobia para predecir la producción de biogás a partir de residuos de la industria panelera en la Provincia de Pastaza</em> (Bachelor&apos;s thesis, Universidad Estatal Amazónica).',
       tipo: 'Trabajo de grado',
       link: 'https://repositorio.uea.edu.ec/handle/123456789/690',
     },
@@ -188,7 +193,7 @@ export default {
       tema:
         '3. Gestión ambiental y residuos en el proceso productivo de la panela',
       referencia:
-        'Castillo Quiroga, B., García Castellanos, E. H., León Quiroga, L. & Moreno Díaz, D. M. (2020). <i>Implementación de prácticas que generen la disminución de agentes contaminantes que se liberan en el medio ambiente en los centros de producción panelera en el municipio de Santana, Boyacá</i>.',
+        'Castillo Quiroga, B., García Castellanos, E. H., León Quiroga, L. & Moreno Díaz, D. M. (2020). <em>Implementación de prácticas que generen la disminución de agentes contaminantes que se liberan en el medio ambiente en los centros de producción panelera en el municipio de Santana, Boyacá</em>.',
       tipo: 'Trabajo de grado',
       link: 'https://repository.libertadores.edu.co/handle/11371/3463',
     },
@@ -308,105 +313,108 @@ export default {
   referencias: [
     {
       referencia:
-        'Beltrán Martínez, C. (2021). <i>Evaluación de técnicas para gestión de los residuos de la producción panelera (cachaza) en la vereda Nacederos municipio de Quebradanegra-Cundinamarca</i>. ',
+        'Beltrán Martínez, C. (2021). <em>Evaluación de técnicas para gestión de los residuos de la producción panelera (cachaza) en la vereda Nacederos municipio de Quebradanegra-Cundinamarca</em>. ',
       link: 'https://repositorio.ucundinamarca.edu.co/handle/20.500.12558/3431',
     },
     {
       referencia:
-        'Diaz Delgado, N. Y., Sarasty Ruano, L. C. & Tobar Zambrano, D. M. (2021). <i>Diseño de un Sistema de Gestión de Seguridad y Salud en el Trabajo en la empresa “Trapiche Divino Niño” Municipio de Ancuya-Nariño–2020</i>.',
+        'Diaz Delgado, N. Y., Sarasty Ruano, L. C. & Tobar Zambrano, D. M. (2021). <em>Diseño de un Sistema de Gestión de Seguridad y Salud en el Trabajo en la empresa “Trapiche Divino Niño” Municipio de Ancuya-Nariño–2020</em>.',
       link: 'https://hdl.handle.net/20.500.12962/803',
     },
     {
       referencia:
-        'Díaz, A. & Iglesias, C. E. (2012). Bases teóricas para la fundamentación del proceso de extracción de jugo de caña de azúcar para la producción de panela. <i>Revista Ciencias técnicas agropecuarias, 21</i>(1), p. 53-57.',
+        'Díaz, A. & Iglesias, C. E. (2012). Bases teóricas para la fundamentación del proceso de extracción de jugo de caña de azúcar para la producción de panela. <em>Revista Ciencias técnicas agropecuarias, 21</em>(1), p. 53-57.',
       link: 'https://www.redalyc.org/comocitar.oa?id=93222722010',
     },
     {
       referencia:
-        'Durán Sánchez, E. (2019). <i>Estudio térmico, económico y de calidad en sistemas de producción de panela</i>.',
+        'Durán Sánchez, E. (2019). <em>Estudio térmico, económico y de calidad en sistemas de producción de panela</em>.',
       link: 'https://repositorio.unal.edu.co/handle/unal/76063',
     },
     {
       referencia:
-        'Esquivel Barrios, L. C. & Arenas Quimbayo, J. M. (2016). Análisis externo en el sector panelero. <i>Temas y Reflexiones</i>, (5).',
+        'Esquivel Barrios, L. C. & Arenas Quimbayo, J. M. (2016). Análisis externo en el sector panelero. <em>Temas y Reflexiones</em>, (5).',
       link:
         'http://repositorio.unibague.edu.co:80/jspui/handle/20.500.12313/216',
     },
     {
       referencia:
-        'García, H. R., Albarracín L., Toscano A., Santana N. & Insuasty O. (2007). <i>Guía tecnológica para el manejo integral del sistema productivo de la caña panelera</i>. Mosquera: Produmedios (editorial para el sector agropecuario).',
+        'García, H. R., Albarracín L., Toscano A., Santana N. & Insuasty O. (2007). <em>Guía tecnológica para el manejo integral del sistema productivo de la caña panelera</em>. Mosquera: Produmedios (editorial para el sector agropecuario).',
       link: 'http://hdl.handle.net/20.500.12324/13454',
     },
     {
       referencia:
-        'García, J.G, Toscano, J. A. &Guerrero, G. G. (2015). Análisis exergético de un horno de lecho fijo en la producción de panela. <i>Revista Colombiana De Tecnologias De Avanzada (Rcta), 1</i>(25), p. 32-39.',
+        'García, J.G, Toscano, J. A. &Guerrero, G. G. (2015). Análisis exergético de un horno de lecho fijo en la producción de panela. <em>Revista Colombiana De Tecnologias De Avanzada (Rcta), 1</em>(25), p. 32-39.',
       link:
         'https://docplayer.es/72041133-Exergy-analysis-for-a-furnace-in-the-production-of-panela-analisis-exergetico-de-un-horno-de-lecho-fijo-en-la-produccion-de-panela.html',
     },
     {
       referencia:
-        'Gordillo, G. y García, H. R. (1992). <i>Manual para el diseño y operación de hornillas paneleras</i>. Barbosa. ICA-Holanda.',
+        'Gordillo, G. y García, H. R. (1992). <em>Manual para el diseño y operación de hornillas paneleras</em>. Barbosa. ICA-Holanda.',
+      link:
+        'https://www.researchgate.net/publication/306375186_Hornillas_para_la_produccion_de_panela',
     },
     {
       referencia:
-        'Hugot, E. (1974). <i> Manual para ingenieros azucareros</i>. Editorial continental. S.A. 2da Edición. (México).',
+        'Hugot, E. (1974). <em> Manual para ingenieros azucareros</em>. Editorial continental. S.A. 2da Edición. (México).',
     },
     {
       referencia:
-        'Jaramillo Gómez, D. A., Sánchez López, S. A. & Meneses Suarez, E. J. (2018). <i>Criterios de implementación ISO 14001: 2015 caso de estudio sector Panelero</i>.',
+        'Jaramillo Gómez, D. A., Sánchez López, S. A. & Meneses Suarez, E. J. (2018). <em>Criterios de implementación ISO 14001: 2015 caso de estudio sector Panelero</em>.',
       link:
         'https://repository.unad.edu.co/bitstream/handle/10596/23421/dajaramillog.pdf?sequence=1',
     },
     {
       referencia:
-        'La Madrid Olivares, R. (2015). <i>Modelación numérica del proceso de transferencia de calor en intercambiadores de calor abiertos utilizados en la industria panelera</i>.',
+        'La Madrid Olivares, R. (2015). <em>Modelación numérica del proceso de transferencia de calor en intercambiadores de calor abiertos utilizados en la industria panelera</em>.',
       link:
         'https://pirhua.udep.edu.pe/bitstream/handle/11042/5446/DOC_ING_AUT_001.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Marcelo, D., La Madrid, R. & Santamaría, H. (2013). Evaluación mediante indicadores productivos y energéticos de tres módulos de producción de panela granulada. <i>17 th Latin American and Caribbean conference of engineering and technology LACCEI</i>.',
+        'Marcelo, D., La Madrid, R. & Santamaría, H. (2013). Evaluación mediante indicadores productivos y energéticos de tres módulos de producción de panela granulada. <em>17 th Latin American and Caribbean conference of engineering and technology LACCEI</em>.',
       link: 'http://www.laccei.org/LACCEI2013-Cancun/RefereedPapers/RP252.pdf',
     },
     {
       referencia:
-        'Medina Moreno, R. A. (2016). <i>Estudio computacional de la transferencia de calor en una paila panelera tipo semiesférica</i>.',
+        'Medina Moreno, R. A. (2016). <em>Estudio computacional de la transferencia de calor en una paila panelera tipo semiesférica</em>.',
       link: 'https://repositorio.uniandes.edu.co/handle/1992/13708',
     },
     {
       referencia:
-        'Mejía Restrepo, A. M. (2007). <i>Propuesta para la implementación del sistema de gestión ambiental en el trapiche panelero-HVC</i>.',
+        'Mejía Restrepo, A. M. (2007). <em>Propuesta para la implementación del sistema de gestión ambiental en el trapiche panelero-HVC</em>.',
       link:
         'https://repositorio.utp.edu.co/items/2a289c49-1854-4bb8-9d9d-832cc77e5a69',
     },
     {
       referencia:
-        'Montoya Armenta, L. & Romero Ruíz, H. (1998). <i>Estudio hidrotérmico para la determinación de los coeficientes de transferencia de calor en tres tipos de pailas para hornillas paneleras</i>.',
+        'Montoya Armenta, L. & Romero Ruíz, H. (1998). <em>Estudio hidrotérmico para la determinación de los coeficientes de transferencia de calor en tres tipos de pailas para hornillas paneleras</em>.',
       link:
         'https://www.researchgate.net/publication/306376361_ESTUDIO_HIDROTERMICO_PARA_LA_DETERMINACION_DE_LOS_COEFICIENTES_DE_TRANSFERENCIA_DE_CALOR_EN_TRES_TIPOS_DE_PAILAS_PARA_HORNILLAS_PANELERAS',
     },
     {
       referencia:
-        'Sánchez Castro, Z. & Mendieta Menjura, O. A. (2014). Ajuste de un modelo matemático para la combustión de bagazo de caña en una cámara Ward-Cimpa. <i>Ciencia y Tecnología Agropecuaria, 15</i>(2), p. 133-151.',
+        'Sánchez Castro, Z. & Mendieta Menjura, O. A. (2014). Ajuste de un modelo matemático para la combustión de bagazo de caña en una cámara Ward-Cimpa. <em>Ciencia y Tecnología Agropecuaria, 15</em>(2), p. 133-151.',
     },
     {
       referencia:
-        'Leguízamos, S. G. I. & Yepes. G. N. V. (2014). Estudio Descriptivo Mediante Análisis Multicriterio de la Cadena Agroalimentaria de La Panela. <i>Publicaciones e Investigación, 8</i>, p. 161-183.',
+        'Leguízamos, S. G. I. & Yepes. G. N. V. (2014). Estudio Descriptivo Mediante Análisis Multicriterio de la Cadena Agroalimentaria de La Panela. <em>Publicaciones e Investigación, 8</em>, p. 161-183.',
       link:
         'https://hemeroteca.unad.edu.co/index.php/publicaciones-e-investigacion/article/view/1298',
     },
     {
       referencia:
-        'Suárez Guevara, I. C. (2019). <i>Estrategias para la producción más limpia en el sector de cacao y caña panelera en el Valle del Cauca bajo el marco del Plan Nacional de Negocios Verdes en Colombia</i>.',
+        'Suárez Guevara, I. C. (2019). <em>Estrategias para la producción más limpia en el sector de cacao y caña panelera en el Valle del Cauca bajo el marco del Plan Nacional de Negocios Verdes en Colombia</em>.',
+      link: 'https://red.uao.edu.co/bitstream/10614/11611/5/T08904.pdf',
     },
     {
       referencia:
-        'Vallejo Carabalí, C. E., Peña Medina, H. & Mora Muñoz, L. S. (1995). <i>Evaluación de la producción y consumo de energía en hornillas paneleras</i>. Universidad Autónoma de Occidente.',
+        'Vallejo Carabalí, C. E., Peña Medina, H. & Mora Muñoz, L. S. (1995). <em>Evaluación de la producción y consumo de energía en hornillas paneleras</em>. Universidad Autónoma de Occidente.',
       link: 'https://red.uao.edu.co/handle/10614/2588',
     },
     {
       referencia:
-        'Velásquez, H. I., Janna, F. C. & Agudelo, A. F. (2006). Diagnóstico exergético de los procesos productivos de la panela en Colombia. <i>Energética</i>, (35), p. 15-22.',
+        'Velásquez, H. I., Janna, F. C. & Agudelo, A. F. (2006). Diagnóstico exergético de los procesos productivos de la panela en Colombia. <em>Energética</em>, (35), p. 15-22.',
       link: 'https://www.redalyc.org/articulo.oa?id=147019422003',
     },
   ],

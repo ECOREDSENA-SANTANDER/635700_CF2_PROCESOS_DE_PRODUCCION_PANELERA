@@ -83,6 +83,7 @@
   td, th 
     border: 1px solid #e8e8e8
     padding: 0.3em
+    font-size: 16px
 table 
     border-collapse: separate
     border-spacing: 0
@@ -136,12 +137,18 @@ table
   background-repeat: no-repeat
   background-position: top right
 
-.pasos-b.color-secundario .pasos-b__header__item--active .pasos-b__header__item__dot span
-  color: #FFF
+.pasos-b.color-secundario 
+  .pasos-b__header__item--active .pasos-b__header__item__dot span
+    color: #FFF
+  @media (max-width: $bp-max-md)
+    .horizontal-scroll
+      align-items: flex-start
 
 .tabla-a.tabla-t1
   table
     min-width: 500px !important
+    @media (max-width: $bp-max-md)
+      min-width: 800px !important
     @media (max-width: $bp-max-xs)
       min-width: 800px !important
     thead
@@ -169,6 +176,21 @@ table
 .t1-tarj img
   width: 100px
 
+.t2  
+  .lista-ol--cuadro__vineta.fcc
+    min-width: 20px
+    height: 20px
+    margin-top: 5px
+  span.t-nar b  
+    font-size: 20px !important
+  .tabs-a__tab__selected .tabs-a__tab__text
+    color: $white
+  .tabs-a.color-secundario .tabs-a__tab:hover, .tabs-a.color-secundario .tabs-a__tab:focus
+    color: $white
+  .linea-tiempo-c__header__item__year
+    padding-left: 5px
+    padding-right: 5px 
+
 .t3-3 .col-lg-4
   z-index: 999
   position: relative
@@ -189,3 +211,5 @@ table
     left: -25%
     @media (max-width: $bp-max-md)
       display: none
+
+

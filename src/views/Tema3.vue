@@ -21,7 +21,7 @@
 
         
       .row.justify-content-center.align-items-center.t3-3(data-aos='fade')
-        .col-lg-4.col-md-6.mb-3.mb-lg-0
+        .col-lg-4.col-md-6.col-11.mb-3.mb-lg-0
           img(src="@/assets/curso/temas/T3/img-2.svg")
         .col-lg-6
           .tarjeta.tarjeta-amarillo.p-4.py-lg-5.t-3

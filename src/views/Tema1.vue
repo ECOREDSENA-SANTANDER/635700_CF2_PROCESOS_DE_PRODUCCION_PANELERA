@@ -94,7 +94,7 @@
       
       .tarjeta.color-secundario.p-4.mb-5(data-aos="fade")
         .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
+          .col-3.col-sm-2.col-lg-1.mb-2.mb-lg-0
             img(src='@/assets/curso/temas/T1/img-8.svg', alt='')
           .col
             .row.justify-content-between.align-items-center
@@ -105,7 +105,8 @@
                   span.texto-blanco Descargar
                   i.fas.fa-file-download
 
-  
+
+
       h3.mb-4 Combustión
   
       .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos='fade-down')
