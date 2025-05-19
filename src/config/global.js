@@ -136,12 +136,11 @@ export default {
         'https://repositorio.uniandes.edu.co/bitstream/handle/1992/12574/u686426.pdf?sequence=1',
     },
     {
-      tema: '1. Combustible utilizado en la hornilla',
+      tema: 'Combustible utilizado en la hornilla',
       referencia:
         'García Rincón, J. G., Arévalo Toscano, J.  & Guerrero Gómez, G. (2021). Análisis energético de un horno de lecho fijo en la producción de panela. <em>Revista Colombiana De Tecnologías De Avanzada (Rcta), 1</em>(25), p. 32-39.',
       tipo: 'Artículo',
-      link:
-        'http://ojs.unipamplona.edu.co/ojsviceinves/index.php/rcta/article/view/409',
+      link: 'https://ojs.unipamplona.edu.co/index.php/rcta/article/view/409',
     },
     {
       tema: 'Proceso de transferencia de calor en la hornilla panelera',
@@ -191,11 +190,12 @@ export default {
     },
     {
       tema:
-        '3. Gestión ambiental y residuos en el proceso productivo de la panela',
+        'Gestión ambiental y residuos en el proceso productivo de la panela',
       referencia:
         'Castillo Quiroga, B., García Castellanos, E. H., León Quiroga, L. & Moreno Díaz, D. M. (2020). <em>Implementación de prácticas que generen la disminución de agentes contaminantes que se liberan en el medio ambiente en los centros de producción panelera en el municipio de Santana, Boyacá</em>.',
       tipo: 'Trabajo de grado',
-      link: 'https://repository.libertadores.edu.co/handle/11371/3463',
+      link:
+        'https://repository.libertadores.edu.co/items/a8fc3c8e-d1a1-48ac-9267-48d8100fa828',
     },
   ],
   glosario: [
@@ -345,8 +345,7 @@ export default {
     {
       referencia:
         'García, J.G, Toscano, J. A. &Guerrero, G. G. (2015). Análisis exergético de un horno de lecho fijo en la producción de panela. <em>Revista Colombiana De Tecnologias De Avanzada (Rcta), 1</em>(25), p. 32-39.',
-      link:
-        'https://docplayer.es/72041133-Exergy-analysis-for-a-furnace-in-the-production-of-panela-analisis-exergetico-de-un-horno-de-lecho-fijo-en-la-produccion-de-panela.html',
+      link: 'https://ojs.unipamplona.edu.co/index.php/rcta/article/view/409',
     },
     {
       referencia:
